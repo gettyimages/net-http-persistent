@@ -1,3 +1,8 @@
+=== 2.10.0 / 2016-05-09
+
+* Major enhancement
+  * Uses a connection pool. Work by Eric Hodel.
+
 === 2.9.5 / 2014-11-20
 
 * Bug fixes
