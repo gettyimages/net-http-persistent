@@ -1,7 +1,18 @@
-= net-http-persistent
+= net-http-persistent-pool
 
 * http://docs.seattlerb.org/net-http-persistent
 * https://github.com/drbrain/net-http-persistent
+
+== IMPORTANT:
+
+This a fork of the existing net-http-persistent repo, with a single objective
+of making the existing connection pool work on master available as a versioned
+and publicly available gem in rubygems.
+
+This gem will only exist until the connection pool work is available in the
+parent project as part of a gem release.
+
+Users of this gem should +require 'net/http/persistent'+ as normal.
 
 == DESCRIPTION:
 

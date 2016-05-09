@@ -7,8 +7,8 @@ Hoe.plugin :git
 Hoe.plugin :minitest
 Hoe.plugin :travis
 
-Hoe.spec 'net-http-persistent' do
-  developer 'Eric Hodel', 'drbrain@segment7.net'
+Hoe.spec 'net-http-persistent-pool' do
+  developer 'Getty Images', 'opensource@gettyimages.com'
 
   self.readme_file      = 'README.rdoc'
   self.extra_rdoc_files += Dir['*.rdoc']
